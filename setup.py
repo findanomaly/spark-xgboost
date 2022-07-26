@@ -24,7 +24,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='spark-xgboost',
-    version='0.90.2',
+    version='0.90.3',
     description='spark-xgboost is the PySpark package for XGBoost',
 
     long_description=long_description,
@@ -43,8 +43,6 @@ setup(
         'License :: OSI Approved :: Apache Software License',
 
         # Supported Python Versions
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
